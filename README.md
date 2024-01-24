@@ -1,6 +1,6 @@
 # Quantcast challenge
 
-### Challenge
+## Challenge
 
 Given a cookie log file in the following format:
 ```
@@ -26,17 +26,17 @@ $ ./[command] -f cookie_log.csv -d 2018-12-09
 AtY0laUfhglK3lC7
 ```
 
-### Contents
+## Contents
 `data/`: input files for testing
 
 `most_active_cookie.py`: one-off CLI script which reads cookie log (*.csv) and prints most seen cookie(s) on specific date 
 
 `tests.py`: unit tests written using pytest
 
-### Dependencies
+## Dependencies
 https://github.com/pytest-dev/pytest
 
-### Usage
+## Usage
 ```
 $ python3 most_active_cookie.py -f data/cookie-log.csv -d 2018-12-08
 SAZuXPGUrfbcn5UA
@@ -44,7 +44,7 @@ SAZuXPGUrfbcn5UA
 fbcn5UAVanZf6UtG
 ```
 
-### Tests
+## Tests
 ```
 pytest -v tests.py
 ```
